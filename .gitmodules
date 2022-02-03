@@ -1,3 +1,9 @@
 [submodule "airclass-backend1"]
 	path = airclass-backend1
 	url = https://github.com/bhanukirant99/airclass-backend.git
+[submodule "airclass-frontend"]
+	path = airclass-frontend
+	url = https://github.com/HariChandana26/airclass-frontend.git
+[submodule "airclass-backend"]
+	path = airclass-backend
+	url = https://github.com/bhanukirant99/airclass-backend.git
