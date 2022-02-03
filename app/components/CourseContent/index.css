@@ -1,0 +1,28 @@
+
+.video-title{
+    color:#ffffff;
+    margin-bottom:16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:10px;
+}
+.video-heading{
+    font-size:16px;
+    font-weight:600;
+    line-height: 1.8;
+    margin-bottom:10px;
+    letter-spacing: 1px;
+}
+.time-group{
+display:flex;
+align-items:center;
+font-size:12px;
+margin-top:8px;
+font-weight:600;
+}
+.clock{
+    font-size:12px;
+    margin-right:8px;
+}
+.time-taken{
+    font-size:14px;
+}

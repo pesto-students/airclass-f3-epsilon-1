@@ -1,0 +1,261 @@
+.addcourseContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+}
+.coursetitleInput{
+    width: 74%;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #8c86f8;
+    padding-left: 20px;
+    border: none;
+    background: #F0EFFF;
+    margin-bottom:20px;
+    outline:none;
+}
+.courseTitle{
+    text-transform:capitalize;
+    font-size: 20px;
+   width:250px;
+    margin-bottom:8px;
+    white-space: pre-wrap;
+    font-weight: 600;
+    color: rgb(82, 96, 109);
+    line-height:1.2;
+}
+.labelInputGroup{
+    display:flex;
+    width:100%;
+}
+.courseinfoInput{
+    width: 74%;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #8c86f8;
+    padding-left: 20px;
+    border: none;
+    background: #F0EFFF;
+    margin-bottom:20px;
+    outline:none;
+}
+.addcourse{
+    width:200px;
+}
+.uploadImage{
+  margin-bottom:16px;
+}
+@media screen and (max-width:425px){
+    .addcourseContainer{
+        padding:12px;
+    }
+}
+@media screen and (max-width:425px){
+    .coursetitleInput,.courseinfoInput{
+        width:85%;
+    }
+}
+*{
+    box-sizing:border-box;
+  }
+  .page{
+    background: #FAFBFE;
+  }
+  .body{
+    margin-top:76px;
+      
+      width:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content{
+      display:flex;
+      flex-direction:column;
+      width:94%;
+      margin: 0 auto;
+      margin-top:48px;
+    }
+    .displayname{
+      font-size:20px;
+      font-weight:500;
+
+    }
+    .no-search-results{
+      margin-top:30px;
+      font-size:20px;
+      font-weight:normal;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.4px;
+      text-align:center;
+    }
+    .courses{
+      margin-top:30px;
+      font-size:20px;
+      font-weight:normal;
+      font-weight: 500;
+      color: rgb(0, 48, 110);
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      
+    }
+  .courses-display{
+    display:flex;
+  }
+    .courses-box{
+      border-bottom: 1px solid rgba(123, 135, 148, 0.24);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      
+    }
+    .enroll{
+      width: 80px;
+      background-color: rgb(230, 240, 253);
+      padding-left: 14px;
+      padding-right: 14px;
+      border: none;
+      pointer-events: auto;
+      cursor: pointer;
+      height: 34px;
+    border-radius: 5.4px;
+    color: rgb(52, 136, 239);
+    font-size:16px;
+    }
+    .courses-cards{
+      display:flex;
+      overflow-x: scroll;
+      scrollbar-width: none;
+      padding-bottom:8px;
+     
+      
+    }
+    .courses-cards::-webkit-scrollbar {
+      display: none;
+  }
+    .arrow-container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+     display:none;
+    }
+    .arrow{
+      width: 22px;
+      height: 30px;
+      color:#1C3874;
+    }
+    .masterclass-container{
+      display:flex;
+      overflow-x: scroll;
+    scrollbar-width: none ;
+    }
+    .addCourse{
+      margin-top:12px;
+    align-self:flex-end;
+    width:100px;
+  min-height:30px;
+    outline:none;
+    border:none;
+    border-radius:4px;
+    background:#3667D3;
+    color:white;
+    display: inline-block;
+  
+    }
+    .addMasterclass{
+      width:140px;
+      margin-top:12px;
+      align-self:flex-end;
+    min-height:30px;
+      outline:none;
+      border:none;
+      border-radius:4px;
+      background:#3667D3;
+      color:white;
+      display: inline-block;
+    }
+    .modal {
+      font-size: 12px;
+    }
+    .modal > .header {
+      width: 100%;
+      border-bottom: 1px solid gray;
+      font-size: 18px;
+      text-align: center;
+      padding: 5px;
+    }
+    .modal > .content {
+      width: 100%;
+      padding: 10px 5px;
+    }
+    .modal > .actions {
+      width: 100%;
+      padding: 10px 5px;
+      margin: auto;
+      text-align: center;
+    }
+    .modal > .close {
+      cursor: pointer;
+      position: absolute;
+      display: block;
+      padding: 2px 5px;
+      line-height: 20px;
+      right: -10px;
+      top: -10px;
+      font-size: 24px;
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid #cfcece;
+    }
+    .closeBtn{
+      margin-top:12px;
+      align-self:flex-end;
+      width:80px;
+    min-height:30px;
+      outline:none;
+      border-radius:4px;
+  border:1px solid #3667D3;
+      color:#3667D3;
+      display: inline-block;
+      background:transparent;
+      font-weight:600;
+    }
+    @media screen and (max-width:784px){
+      .popup-content{
+        width:90% !important;
+      }
+    }
+    @media screen and (max-width:1440px){
+      .popup-content{
+        width:80% !important;
+      }
+    }
+    @media screen and (max-width:432px){
+      .courses{
+       font-size:16px;
+      }
+    }
+    @media screen and (max-width:322px){
+      .addMasterclass{
+       font-size:12px;
+       width:116px !important;
+      }
+      .addCourse{
+        font-size:12px;
+      }
+    }

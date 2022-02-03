@@ -1,0 +1,26 @@
+.comments-box{
+    margin-bottom:16px;
+}
+.comment-user{
+    display:flex;
+    align-items:center;
+    margin-bottom:16px;
+    border:1px solid box;
+}
+.comment-name{
+    margin-left:16px;
+}
+.user-comment{
+    margin-top:16px;
+    color:#494a4d;
+}
+@media screen and (max-width:768px){
+    .comment-name{
+        color: rgb(56, 63, 72);
+    font-size: 12px;
+    margin-right: 8px;
+
+    font-weight:500;
+    letter-spacing: 1px;
+    }
+}

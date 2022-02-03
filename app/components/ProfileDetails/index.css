@@ -1,0 +1,52 @@
+.input-title{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:8px;
+    color:#4a5d6d;
+}
+.profile-input{
+   
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    background:#FAFBFE;
+    padding-left: 20px;
+    border: 1px solid #7c8991;
+min-width:100%;
+    margin-bottom:20px;
+    outline:none;
+}
+.name-input{
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    background:#FAFBFE;
+    padding-left: 20px;
+    border: 1px solid #7c8991;
+max-width:90%;
+min-width:40%;
+    margin-bottom:20px;
+    outline:none;
+}
+.names-container{
+    display:flex;
+    justify-content:space-between;
+}
+.update-btn{
+    height:40px;
+}
+@media screen and (max-width:784px){
+
+}

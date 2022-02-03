@@ -1,0 +1,28 @@
+.reply-area{
+    width:100%;
+}
+.reply-btn1{
+    border:none;
+    outline:none;
+    background:none;
+    color:#3667D3;
+    font-weight:500;
+}
+.solution-box{
+    border:1px solid #BDC9E1;
+}
+.solutions{
+    margin-top:12px;
+}
+.discussion{
+    margin-bottom:32px;
+}
+.backarrow{
+    margin-bottom:32px;
+}
+@media screen and (max-width:425px){
+.reply-box{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+}

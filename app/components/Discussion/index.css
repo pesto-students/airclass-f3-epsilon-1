@@ -1,0 +1,124 @@
+.title-box1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    padding:0px;
+    margin-bottom:12px;
+}
+.discussion-title{
+    margin-bottom:8px;
+    white-space: pre-wrap;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(82, 96, 109);
+    display: -webkit-box;
+  -webkit-box-orient: vertical;  
+    line-height:1.2;
+}
+.user-details-container1 {
+    display: flex;
+    margin-left:16px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .initial-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 43, 80);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right:12px; 
+    
+  }
+  .initial2 {
+    color: #FAFBFE;
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    
+  }
+  
+  .name1 {
+    
+    color: rgb(56, 63, 72);
+    font-size: 16px;
+    margin-right: 8px;
+
+    font-weight:600;
+  
+  }
+
+.discussion-box{
+    background: #FFFFFF;
+border: 1px solid #A7BAFE;
+border-radius: 8px;
+padding:20px ;
+margin-bottom:20px;
+}
+.discussion-details{
+    margin-bottom:20px;
+}
+.reply{
+    font-size:20px;
+    text-transform:capitalize;
+    color:#3667D3;
+    font-weight:normal;
+}
+.reply-box{
+    padding-left:50px;
+    padding-right:30px;
+    display:flex;
+    flex-direction:column;
+}
+.reply-area{
+    color:#94A5C7;
+    margin-top:12px;
+    padding:16px;
+}
+.reply-btn{
+    margin-top:20px;
+    align-self:flex-end;
+    width:100px;
+  min-height:30px;
+    outline:none;
+    border:none;
+    border-radius:4px;
+    background:#3667D3;
+    color:white;
+    display: inline-block;
+}
+.no-reply-box{
+    display:none;
+}
+.nav-link-discussion{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:1024px){
+    .initial-container2 {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right:8px; 
+    }
+    .initial2 {
+        font-size: 12px;
+      }
+}
+@media screen and (max-width:768px){
+   .title-box1{
+       display: flex;
+       flex-direction:column;
+       justify-content:flex-start;
+       align-items:flex-start;
+       margin-bottom:20px;
+   }
+   .user-details-container1{
+       margin:0px;
+   }
+}

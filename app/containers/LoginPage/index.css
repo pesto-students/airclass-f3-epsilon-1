@@ -1,0 +1,162 @@
+.login-container{
+    background:#FAFBFE;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    height:80%; 
+}
+.login-section-left{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:100%;
+}
+.login-logo{
+    width:150px;
+    margin-bottom:16px;
+}
+.sign-in-to{
+    font-size:30px;
+    font-weight:600;
+}
+.website-name{
+    font-weight:bold;
+    font-size:28px;
+    margin-bottom:40px;
+}
+.login-section-left-text{
+    align-self:flex-start;
+}
+.register-msg{
+    font-size: 16px;
+line-height: 24px;
+}
+.register-here{
+    color: #3A69FF;
+    font-size:18px;
+    font-weight:500;
+}
+.login-image{
+    align-self:flex-end;
+}
+.login-section-right{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:40%;
+}
+.login-input{
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #8c86f8;
+    padding-left: 20px;
+    border: none;
+    background: #F0EFFF;
+    margin-bottom:20px;
+    outline:none;
+}
+.login-btn{
+    background:#3A69FF;
+    color:#ffffff;
+    padding:0px;
+    cursor: pointer;
+}
+.continue-with{
+    margin-top:36px;
+    font-size:12px;
+    color:#979696;
+}
+.login-icons{
+    margin-top:36px;
+    width:20%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.facebook-icon{
+    color: #0163E0;
+    font-size:28px;
+}
+.google-icon{
+    font-size:30px;
+}
+.nav-link-login{
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .login-image{
+        width:250px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .login-container{
+        padding: 50px 30px 50px 30px;
+        height:110vh;
+    }
+    .login{
+        display:flex;
+        flex-direction:column;
+        margin-top:50px;
+    }
+    .login-image{
+        visibility: hidden;
+        width:0%;
+    }
+.login-section-left{
+    display: flex;   
+}
+.login-section-left-text {
+    align-self: center ;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.sign-in{
+    display: none;
+}
+.login-section-right{
+    margin:40px 20px 40px 20px;
+    width:54% !important;
+}
+.login-icons{
+    width:20%;
+}
+}
+@media screen and (max-width: 768px) {
+    .login-section-right{
+        width:70% !important;
+    }  
+}
+@media screen and (max-width: 480px) {
+    .login-section-right{
+        width:100% !important;
+    }
+    .login-container {
+        padding: 50px 16px 50px 16px;
+    }
+}

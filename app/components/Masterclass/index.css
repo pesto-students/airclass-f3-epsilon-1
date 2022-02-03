@@ -1,0 +1,68 @@
+*{margin:0px;
+    padding:0px; }
+
+.course-container{
+    background-color: white;
+    width: 250px;
+    box-shadow: rgb(0 48 110 / 10%) 0px 1px 2px 0px;
+    border-radius: 8px;
+    margin-top:30px;
+    margin-right:30px;
+}
+.course-details{
+    padding: 10px 20px 20px 20px;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    position: relative;
+    width: 250px;
+
+}
+.masterclass-image{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -webkit-box-pack: end;
+    justify-content: center;
+    align-items:center;
+    position: relative;   
+}
+.course-image{
+    height:140px;
+    width: 250px;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+}
+.course-title{
+    margin-bottom:8px;
+    white-space: pre-wrap;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(82, 96, 109);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height:1.2;
+}
+.course-info{
+    color: #607786;
+    font-size:16px;
+    align-self:flex-start;
+    line-height:1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.play-icon{
+    position: absolute;
+    fill:white;
+    font-size:36px;
+}
+.navLinkMasterclass{
+    text-decoration:none;
+}

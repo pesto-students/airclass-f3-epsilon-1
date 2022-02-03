@@ -1,0 +1,99 @@
+*{
+  box-sizing:border-box;
+}
+.page{
+  background: #FAFBFE;
+}
+.body{
+  margin-top:76px;
+  overflow-x: auto;
+  scrollbar-width: none;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content{
+    display:flex;
+    flex-direction:column;
+    width:94%;
+    margin: 0 auto;
+    margin-top:48px;
+  }
+  .displayname{
+    font-size:20px;
+    font-weight:500;
+
+  }
+  .no-search-results{
+    margin-top:30px;
+    font-size:20px;
+    font-weight:normal;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.4px;
+    text-align:center;
+  }
+  .courses{
+    margin-top:30px;
+    font-size:20px;
+    font-weight:normal;
+    font-weight: 500;
+    color: rgb(0, 48, 110);
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    
+  }
+.courses-display{
+    display:flex;
+}
+  .courses-box{
+    border-bottom: 1px solid rgba(123, 135, 148, 0.24); 
+  }
+  .courses-cards{
+    display:flex;
+    /* flex-wrap:wrap; */
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    padding-bottom:8px;   
+  }
+  .courses-cards::-webkit-scrollbar {
+    display: none;
+}
+  .arrow-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   display:none;
+  }
+  .arrow{
+    width: 22px;
+    height: 30px;
+    color:#1C3874;
+  }
+  .masterclass-container{
+    display:flex;
+    overflow-x: scroll;
+    scrollbar-width: none ;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  .homepage-loader{
+    min-height:100vh;
+    align-self:center;
+  }
+
+ @media screen and (max-width:1024px){
+   .body{
+    margin-top:60px !important;
+   }
+   .content{
+     width:92% !important;
+   }
+ }
+ @media screen and (max-width:425px){
+  .content{
+    width:84% !important;
+  }
+ }

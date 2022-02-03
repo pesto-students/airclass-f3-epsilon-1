@@ -1,0 +1,332 @@
+.description-container{
+    margin-top:76px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(
+91deg, rgb(0, 44, 124) 34%, rgba(0, 44, 124, 0) 81%), url(https://d1tgh8fmlzexmh.cloudfront.net/otg_prod/media/Tech_4.0/Competitive_Programming/Competitive_Programming_Banner%402x.png);
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    padding-right: 45px;
+    min-height: 280px;
+    padding-top: 7px;
+    position: relative;
+    background-position-x: 100%;
+    background-size: auto 100%;
+}
+
+.description-text-container{
+    padding:40px;
+    width:700px;
+    color:#ffffff;
+}
+
+.course-title1{
+    font-size:28px;
+    font-weight:500;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  
+}
+.course-description{
+   
+    font-size:16px;
+    line-height:1.6em;
+    color:#f4f2f8;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  color: rgb(216, 225, 254);
+ 
+}
+.course-contents{
+    display:flex;
+}
+.course-sidebar-display{
+padding:20px;
+background-color:#1B2B50;
+width:380px;
+}
+.course-sidebar{
+    visibility: hidden;
+    width:0px;
+}
+.contents-group{
+    color:#5283F6;
+    display:flex;
+    align-items:center;
+    margin-bottom:30px;
+}
+.back-arrow{
+    font-size:24px;
+    color:#5283F6;
+}
+.contents{
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:400;
+    margin-left:15px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.cross-icon{
+    font-size:16px;
+    text-decoration: none;
+    margin-left:40px;
+}
+.menu-icon-box{
+    background:#1B2B50;
+    padding:4px;
+    
+    height:44px;
+    width:44px;
+    margin-right:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.menu-icon{
+       
+    font-size:24px;
+     color:white;
+     
+ }
+.collapsible-sidebar{
+    padding:20px;
+background-color:#1B2B50;
+
+}
+.video-content{
+background:#FAFBFE;
+width:100%;
+
+}
+.title-box{
+    background: #FFFFFF;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+padding:8px;
+width:100%;
+    display:flex;
+    align-items:center;
+
+}
+.title{
+    font-size:20px;
+    font-weight:500;
+}
+.coursepage-content{
+width:100%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+}
+.video-display{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+justify-content:center;
+padding:30px;
+width:85%;
+
+}
+.video-player{
+    width:100%;
+    margin-bottom:12px;
+}
+.video-selected{
+    background-color:#5283F6;
+    border:1px solid white;
+}
+.like-section{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+.like-box{
+    display:flex;
+    align-items:center;
+    background:#E6F0FD;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius:4px;
+    border:none;
+    outline:none;
+    height:30px;
+}
+.like-icon{
+    color:#5283F6;
+    font-size:16px;
+    margin-right:10px;
+ 
+}
+.like{
+    color:#5283F6;
+    font-size:14px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+.notes-comments-container{
+    display:flex;
+    flex-direction:column;
+    width:85%;
+    padding:0px 30px 8px 30px;
+}
+.notes-comments{
+    display:flex;
+    color:#556cdd;
+    border-bottom: 1px solid rgba(99, 104, 110, 0.24);
+}
+.notes{
+    font-size:16px;
+    font-weight:400; 
+    margin-right:52px;
+    border-bottom:2px solid #556cdd;
+}
+.notes-hide{
+    font-size:16px;
+    font-weight:400; 
+    margin-right:52px;
+    color:#777B83;
+}
+.comments{
+    font-size:16px;
+    font-weight:400;
+    border-bottom:2px solid #556cdd;
+}
+.comments-hide{
+    font-size:16px;
+    font-weight:400;
+    color:#777B83;
+}
+
+.notes-container{
+    width:100%;
+    margin-top:30px;
+    border: 1px solid #5866AA;
+    border-radius: 4px;
+    align-self:flex-start;
+    padding:10px 20px 30px 20px;
+}
+.notes-container-hide{
+    display:none;
+}
+.notes-list{
+    list-style-position: inside;
+    color:#494a4d;
+}
+.notes-text{
+    line-height:30px;
+}
+.comments-container{
+display:flex;
+flex-direction:column;
+width:100%;
+    margin-top:30px;
+    border: 1px solid #5866AA;
+    border-radius: 4px;
+    padding:10px 20px 30px 20px;
+}
+.comments-container-hide{
+        display:none;
+}
+.comment-input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #494a4d;
+    font-size:14px;
+    font-weight:500;
+    color:black;
+        outline:none;
+        margin-bottom:20px;
+}
+.comment-button{
+    width: 88px;
+    height: 30px;
+    background: #4A88EF;
+    border-radius: 4px;
+    border:none;
+    outline:none;
+    color:white;
+    text-transform:white;
+    align-self:flex-end;
+}
+.video{
+    height:600px;
+}
+
+@media screen and (max-width: 1200px) {
+    .description-container{
+        margin-top:60px !important;
+        padding:4px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .description-text-container{
+      padding:8px;
+      width:60%;
+    }
+    .title{
+        font-size:16px;
+        font-weight:500;
+    }
+    .course-sidebar{
+        visibility: visible;
+        position: absolute;
+        z-index: 100;
+        max-width:380px;
+        min-width:300px;
+        background-color:#1B2B50;
+        padding:20px;
+  }
+    .course-sidebar-display{
+        visibility: hidden;
+        width:0px;
+        display: none;
+    }
+    .video{
+        max-height:700px;
+        max-width:900px;
+        min-height:300px;
+    }
+    .video-display{
+        padding:24px 0px 20px 0px;
+    }
+    .notes-comments-container{
+        display:flex;
+        flex-direction:column;
+        width:85%;
+        padding:0px 8px 4px 8px;
+    }  
+}
+.collapsible-sidebar-menu{
+    display:flex;
+    width:100%;
+}
+@media screen and (max-width: 768px) {
+    .video{
+        max-height:400px;
+        max-width:600px;  
+    }
+    .title-box{
+        height:50px;
+    }
+    .menu-icon-box{
+        width:30px;
+        height:30px;         
+     }
+     .home{
+         margin:0 8px 0 8px;
+     }
+}
+@media screen and (max-width: 500px){
+    .notes-comments-container{
+       width:94%;
+    }
+}
