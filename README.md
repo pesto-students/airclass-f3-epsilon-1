@@ -32,7 +32,7 @@ An AIRCLASS is a learning environment in which students (customers, partners, or
 ## **Live Link**
 
 Immersis App Link:
-<https://airclass.netlify.app/>
+<https://air-class.netlify.app/>
 
 ## **Getting Started**
 
