@@ -27,7 +27,7 @@ airclass-f3-epsilon-1 created by GitHub Classroom
 
 ## **About The Project**
 
-An AIRCLASS is a learning environment in which students (customers, partners, or any third party) engage with the lesson material online. Information is often conveyed through voice or video conferencing with several participants and instructors connected to the same chat interface. However, not all AIRCLASS platforms require instructors. 
+An AIRCLASS is a learning environment in which students (customers, partners, or any third party) engage with the lesson material online. Information is often conveyed through video lectures with several participants and instructors connected to the same chat interface. However, not all AIRCLASS platforms require instructors. 
 
 ## **Live Link**
 
