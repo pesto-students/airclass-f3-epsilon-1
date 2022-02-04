@@ -3,7 +3,7 @@ airclass-f3-epsilon-1 created by GitHub Classroom
 
 # README
 
-# **Immersis**
+# **Airclass**
 
 ## **Table of Contents**
 
