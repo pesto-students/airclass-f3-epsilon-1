@@ -5,9 +5,15 @@ airclass-f3-epsilon-1 created by GitHub Classroom
 
 # **Airclass**
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/63184837/159295575-21d28132-5087-403e-ace2-bf15081418f6.png" alt="airclass-logo"/>
+</p>
+
+We are living in the age of pandemics, where online learning increased significantly. With schools and universities shut, virtual learning became the only viable solution. With many people in lockdowns and more free time on their hands, the popularity of online courses skyrocketed. When it comes to collecting/writing notes and organising notes, it becomes really a difficult task. With AIRCLASS, we are proving pre-written notes for all the lectures which helps you in organising notes as per course. Also we have providing different features like cpmments section and discussion forum where the student can post there doubts and get them resolved by fellow students or mentors.
+
 ## **Table of Contents**
 
-1.  [About The Project](#about-the-project)
+1.  [Demo](#project-demo)
 
 2.  [Getting Started](#getting-started)
 
@@ -25,14 +31,17 @@ airclass-f3-epsilon-1 created by GitHub Classroom
 
 7.  [UI Screens](#ui-screens)
 
+8.  [License](#license)
+
 ## **About The Project**
 
 An AIRCLASS is a learning environment in which students (customers, partners, or any third party) engage with the lesson material online. Information is often conveyed through video lectures with several participants and instructors connected to the same chat interface. However, not all AIRCLASS platforms require instructors. 
 
-## **Live Link**
+## **Project Demo**
 
-Immersis App Link:
-<https://air-class.netlify.app/>
+<a href="https://air-class.netlify.app/">
+    <p>Live Demo</p>
+ </a>
 
 ## **Getting Started**
 
@@ -155,3 +164,7 @@ below mentioned links from the homepage.
 
 7. Access Videos, Notes
 
+## **License**
+<a href='https://opensource.org/licenses/MIT'>
+  <p>MIT</p>
+</a>
